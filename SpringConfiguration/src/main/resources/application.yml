@@ -1,0 +1,17 @@
+server:
+  port: 8888
+
+configuration:
+  version: 1
+  projectName: "Studying..."
+
+object:
+  name: "pojo"
+  year: 2016
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/lucasgcampos/microservices-lab-configuration
